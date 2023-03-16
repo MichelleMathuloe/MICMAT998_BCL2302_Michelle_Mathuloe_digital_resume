@@ -1,0 +1,33 @@
+header {
+    background-color: blue;
+}
+
+.linkedin {
+    width: 25px;
+}
+
+.hero_content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5%;
+    margin-right: 10px; 
+
+}
+
+.hero_image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ 
+    }
+
+    img{
+        clip-path: circle(height-max);
+        position: initial;
+        border: solid black;
+        border-radius: 40%;
+        height: max-content;
+    }
+
+.about_me {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
